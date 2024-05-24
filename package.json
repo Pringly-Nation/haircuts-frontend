@@ -1,0 +1,27 @@
+{
+  "name": "haircuts-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.4.0",
+    "gsap": "^3.11.5",
+    "lit": "^2.7.3",
+    "moment": "^2.29.4",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-reporter-static-files-copy": "^1.5.0"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ]
+}
